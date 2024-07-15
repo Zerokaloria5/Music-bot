@@ -1,5 +1,6 @@
 module.exports = {
     app: {
+        token: '',
         playing: 'FurYxHosted.gg',
         global: true,
         guild: 'xxx',
