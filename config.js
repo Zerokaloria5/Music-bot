@@ -1,7 +1,7 @@
 module.exports = {
     app: {
         token: 'xxx',
-        playing: 'by the Community ❤️',
+        playing: 'FurYxHosted.gg',
         global: true,
         guild: 'xxx',
         extraMessages: false,
@@ -27,12 +27,12 @@ module.exports = {
             commands: []
         },
         Translate_Timeout: 10000,
-        maxVol: 100,
+        maxVol: 1000,
         spotifyBridge: true,
-        volume: 75,
-        leaveOnEmpty: true,
+        volume: 100,
+        leaveOnEmpty: false,
         leaveOnEmptyCooldown: 30000,
-        leaveOnEnd: true,
+        leaveOnEnd: false,
         leaveOnEndCooldown: 30000,
         discordPlayer: {
             ytdlOptions: {
