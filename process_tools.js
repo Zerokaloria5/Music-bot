@@ -1,6 +1,7 @@
 const config = require("./config");
 
 module.exports = {
+  TOKEN: "",
   Translate: async (text = "", lang = "", allLowerCase = false) => {
     let output;
     let wait_time = config.opt?.Translate_Timeout;
